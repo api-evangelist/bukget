@@ -1,0 +1,43 @@
+{
+    "name": "BukGet",
+    "description": "<p>BukGet is an API for getting data about bukkit plugins. The system parses BukkitDev every 6 hours and looks for new changes in the data to update. All of this is automatic and happens without any developer intervention. If you notice any issues, we encourage you to open a ticket with us over at the issue tracker. This is the only way we can know about parser errors or issues and make any needed corrections. Below is the schedule that BukGet uses for generating the data. Keep in mind that if you update a plugin, it can take just over 6 hours for your plugin to hit the index. The API is served over both HTTP and HTTPS.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/bukget.png",
+    "tags": [
+        "api provider",
+        "games",
+        "have api",
+        "minecraft",
+        "profile"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/bukget\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "BukGet",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/bukget.png",
+            "humanURL": "http:\/\/bukget.org\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/bukget-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/BukGet"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/bukget.org\/"
+        }
+    ]
+}
